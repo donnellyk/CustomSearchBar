@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2E236E14268B37004DF9FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E236D14268B37004DF9FF /* UIKit.framework */; };
+		0A2E237014268B37004DF9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E236F14268B37004DF9FF /* Foundation.framework */; };
+		0A2E237214268B37004DF9FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E237114268B37004DF9FF /* CoreGraphics.framework */; };
+		0A2E237814268B37004DF9FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E237614268B37004DF9FF /* InfoPlist.strings */; };
+		0A2E237A14268B37004DF9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E237914268B37004DF9FF /* main.m */; };
+		0A2E237E14268B37004DF9FF /* CustomSearchBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E237D14268B37004DF9FF /* CustomSearchBarAppDelegate.m */; };
+		0A2E238114268B37004DF9FF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E237F14268B37004DF9FF /* MainWindow.xib */; };
+		0A2E238414268B37004DF9FF /* CustomSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E238314268B37004DF9FF /* CustomSearchBarViewController.m */; };
+		0A2E238714268B37004DF9FF /* CustomSearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E238514268B37004DF9FF /* CustomSearchBarViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2E236914268B37004DF9FF /* CustomSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2E236D14268B37004DF9FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A2E236F14268B37004DF9FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A2E237114268B37004DF9FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A2E237514268B37004DF9FF /* CustomSearchBar-Info.plist */ = {isa = PBXFileReference; path = "CustomSearchBar-Info.plist"; sourceTree = "<group>"; };
+		0A2E237714268B37004DF9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2E237914268B37004DF9FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2E237B14268B37004DF9FF /* CustomSearchBar-Prefix.pch */ = {isa = PBXFileReference; path = "CustomSearchBar-Prefix.pch"; sourceTree = "<group>"; };
+		0A2E237C14268B37004DF9FF /* CustomSearchBarAppDelegate.h */ = {isa = PBXFileReference; path = CustomSearchBarAppDelegate.h; sourceTree = "<group>"; };
+		0A2E237D14268B37004DF9FF /* CustomSearchBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBarAppDelegate.m; sourceTree = "<group>"; };
+		0A2E238014268B37004DF9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0A2E238214268B37004DF9FF /* CustomSearchBarViewController.h */ = {isa = PBXFileReference; path = CustomSearchBarViewController.h; sourceTree = "<group>"; };
+		0A2E238314268B37004DF9FF /* CustomSearchBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBarViewController.m; sourceTree = "<group>"; };
+		0A2E238614268B37004DF9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomSearchBarViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2E236614268B37004DF9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E236E14268B37004DF9FF /* UIKit.framework in Frameworks */,
+				0A2E237014268B37004DF9FF /* Foundation.framework in Frameworks */,
+				0A2E237214268B37004DF9FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2E235E14268B37004DF9FF = {
+			isa = PBXGroup;
+			children = (
+				0A2E237314268B37004DF9FF /* CustomSearchBar */,
+				0A2E236C14268B37004DF9FF /* Frameworks */,
+				0A2E236A14268B37004DF9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2E236A14268B37004DF9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E236914268B37004DF9FF /* CustomSearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2E236C14268B37004DF9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E236D14268B37004DF9FF /* UIKit.framework */,
+				0A2E236F14268B37004DF9FF /* Foundation.framework */,
+				0A2E237114268B37004DF9FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2E237314268B37004DF9FF /* CustomSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E237C14268B37004DF9FF /* CustomSearchBarAppDelegate.h */,
+				0A2E237D14268B37004DF9FF /* CustomSearchBarAppDelegate.m */,
+				0A2E237F14268B37004DF9FF /* MainWindow.xib */,
+				0A2E238214268B37004DF9FF /* CustomSearchBarViewController.h */,
+				0A2E238314268B37004DF9FF /* CustomSearchBarViewController.m */,
+				0A2E238514268B37004DF9FF /* CustomSearchBarViewController.xib */,
+				0A2E237414268B37004DF9FF /* Supporting Files */,
+			);
+			path = CustomSearchBar;
+			sourceTree = "<group>";
+		};
+		0A2E237414268B37004DF9FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E237514268B37004DF9FF /* CustomSearchBar-Info.plist */,
+				0A2E237614268B37004DF9FF /* InfoPlist.strings */,
+				0A2E237914268B37004DF9FF /* main.m */,
+				0A2E237B14268B37004DF9FF /* CustomSearchBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2E236814268B37004DF9FF /* CustomSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E238A14268B37004DF9FF /* Build configuration list for PBXNativeTarget "CustomSearchBar" */;
+			buildPhases = (
+				0A2E236514268B37004DF9FF /* Sources */,
+				0A2E236614268B37004DF9FF /* Frameworks */,
+				0A2E236714268B37004DF9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSearchBar;
+			productName = CustomSearchBar;
+			productReference = 0A2E236914268B37004DF9FF /* CustomSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2E236014268B37004DF9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = 0A2E236314268B37004DF9FF /* Build configuration list for PBXProject "CustomSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2E235E14268B37004DF9FF;
+			productRefGroup = 0A2E236A14268B37004DF9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2E236814268B37004DF9FF /* CustomSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2E236714268B37004DF9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E237814268B37004DF9FF /* InfoPlist.strings in Resources */,
+				0A2E238114268B37004DF9FF /* MainWindow.xib in Resources */,
+				0A2E238714268B37004DF9FF /* CustomSearchBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2E236514268B37004DF9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E237A14268B37004DF9FF /* main.m in Sources */,
+				0A2E237E14268B37004DF9FF /* CustomSearchBarAppDelegate.m in Sources */,
+				0A2E238414268B37004DF9FF /* CustomSearchBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A2E237614268B37004DF9FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E237714268B37004DF9FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A2E237F14268B37004DF9FF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E238014268B37004DF9FF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0A2E238514268B37004DF9FF /* CustomSearchBarViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E238614268B37004DF9FF /* en */,
+			);
+			name = CustomSearchBarViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2E238814268B37004DF9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A2E238914268B37004DF9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2E238B14268B37004DF9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSearchBar/CustomSearchBar-Prefix.pch";
+				INFOPLIST_FILE = "CustomSearchBar/CustomSearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A2E238C14268B37004DF9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSearchBar/CustomSearchBar-Prefix.pch";
+				INFOPLIST_FILE = "CustomSearchBar/CustomSearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2E236314268B37004DF9FF /* Build configuration list for PBXProject "CustomSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E238814268B37004DF9FF /* Debug */,
+				0A2E238914268B37004DF9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2E238A14268B37004DF9FF /* Build configuration list for PBXNativeTarget "CustomSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E238B14268B37004DF9FF /* Debug */,
+				0A2E238C14268B37004DF9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2E236014268B37004DF9FF /* Project object */;
+}
