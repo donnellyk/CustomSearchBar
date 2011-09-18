@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomSearchBar.h"
 
-@interface CustomSearchBarViewController : UIViewController
+@interface CustomSearchBarViewController : UIViewController <UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate, CustomSearchBarDelegate>
 
 @end
