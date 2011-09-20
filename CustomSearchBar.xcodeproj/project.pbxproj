@@ -17,10 +17,9 @@
 		0A2E238414268B37004DF9FF /* CustomSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E238314268B37004DF9FF /* CustomSearchBarViewController.m */; };
 		0A2E238714268B37004DF9FF /* CustomSearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E238514268B37004DF9FF /* CustomSearchBarViewController.xib */; };
 		0A2E239214268CAF004DF9FF /* CustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E239114268CAF004DF9FF /* CustomSearchBar.m */; };
-		0A2E239814268D77004DF9FF /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E239414268D77004DF9FF /* nav_bar.png */; };
-		0A2E239914268D77004DF9FF /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E239514268D77004DF9FF /* nav_bar@2x.png */; };
 		0A2E239A14268D77004DF9FF /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E239614268D77004DF9FF /* btn.png */; };
 		0A2E239B14268D77004DF9FF /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E239714268D77004DF9FF /* btn@2x.png */; };
+		0ACABDEC14281E1300B989E1 /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ACABDEB14281E1300B989E1 /* nav_bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +39,9 @@
 		0A2E238614268B37004DF9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomSearchBarViewController.xib; sourceTree = "<group>"; };
 		0A2E239014268CAF004DF9FF /* CustomSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchBar.h; sourceTree = "<group>"; };
 		0A2E239114268CAF004DF9FF /* CustomSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBar.m; sourceTree = "<group>"; };
-		0A2E239414268D77004DF9FF /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
-		0A2E239514268D77004DF9FF /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bar@2x.png"; sourceTree = "<group>"; };
 		0A2E239614268D77004DF9FF /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
 		0A2E239714268D77004DF9FF /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
+		0ACABDEB14281E1300B989E1 /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +116,7 @@
 		0A2E239314268D68004DF9FF /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0A2E239414268D77004DF9FF /* nav_bar.png */,
-				0A2E239514268D77004DF9FF /* nav_bar@2x.png */,
+				0ACABDEB14281E1300B989E1 /* nav_bar.png */,
 				0A2E239614268D77004DF9FF /* btn.png */,
 				0A2E239714268D77004DF9FF /* btn@2x.png */,
 			);
@@ -179,10 +176,9 @@
 				0A2E237814268B37004DF9FF /* InfoPlist.strings in Resources */,
 				0A2E238114268B37004DF9FF /* MainWindow.xib in Resources */,
 				0A2E238714268B37004DF9FF /* CustomSearchBarViewController.xib in Resources */,
-				0A2E239814268D77004DF9FF /* nav_bar.png in Resources */,
-				0A2E239914268D77004DF9FF /* nav_bar@2x.png in Resources */,
 				0A2E239A14268D77004DF9FF /* btn.png in Resources */,
 				0A2E239B14268D77004DF9FF /* btn@2x.png in Resources */,
+				0ACABDEC14281E1300B989E1 /* nav_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +310,7 @@
 				0A2E238C14268B37004DF9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
